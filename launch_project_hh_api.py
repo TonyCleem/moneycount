@@ -23,5 +23,3 @@ for programming_language in programming_languages:
 
 
 
-
-
