@@ -2,7 +2,8 @@ import requests
 import pprint
 
 url = 'https://api.hh.ru/vacancies'
-payload = {'text':'Москва'}
+payload = {'professional_role':'96',
+           'area':'113'}
 
 response = requests.get(url, params=payload)
 
